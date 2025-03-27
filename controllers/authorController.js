@@ -24,7 +24,7 @@ exports.getAllAuthors = async (req, res) => {
 };
 
 
-// Lire un auteur spécifique
+// Lire un auteur 
 exports.getAuthorById = async (req, res) => {
   try {
     const author = await Author.findById(req.params.id);

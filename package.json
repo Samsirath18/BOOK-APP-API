@@ -12,6 +12,7 @@
     "bcrypt": "^5.1.1",
     "express": "^4.21.2",
     "jsonwebtoken": "^9.0.2",
-    "mongoos": "^0.0.1-security"
+    "mongoos": "^0.0.1-security",
+    "mongoose": "^8.13.0"
   }
 }

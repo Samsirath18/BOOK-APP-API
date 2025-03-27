@@ -13,7 +13,7 @@ exports.createBook = async (req, res) => {
   }
 };
 
-// Retrieve all books with author populated
+// Afficher les livre créée
 exports.getAllBooks = async (req, res) => {
   try {
     const books = await Book.find().populate('author');
